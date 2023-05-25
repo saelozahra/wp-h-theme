@@ -1,0 +1,625 @@
+/* Larger than desktop */
+@media (min-width: 950px) {
+
+
+
+.container {
+  padding: 0;
+  width: 95%;
+}
+
+
+
+header .nav1 a {
+  background-color: #e2e2e2;
+  float: left;
+  margin: 6px;
+  opacity: 0.7;
+}
+
+header .nav1 a:hover {
+	opacity: 1;
+}
+
+
+.sin-sup {
+  display:block;
+}
+
+
+
+
+
+.logo {
+  float: left;
+  margin: 24px 0 50px;
+}
+
+
+
+
+
+
+#boxscroll {
+  transform: translateY(0px);
+}
+
+
+
+.nav2 {
+  border-bottom: 1px solid #4b4b4b;
+}
+
+.nav2 ul .tl-li {
+  background-image: url("../img/border-nav.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  border-bottom: medium none;
+  float: left;
+  padding: 22px 26px 22px 6px;
+  position: relative;
+  width: auto;
+}
+
+.sub-nav {
+  background-color: #333;
+  border-top: 1px solid #4b4b4b;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  width: 200px;
+  z-index: 9;
+}
+
+.sub-nav li {
+  background-position: right center;
+  background-size: 6% auto;
+  float: left;
+  padding: 5px 0;
+  width: 100%;
+}
+
+
+
+
+.nav2 ul .tl-li:last-child {
+  background-image: none;
+}
+
+
+
+.art1 {
+  font-size: 100%;
+  line-height: 1;
+  padding: 0;
+}
+
+
+.art1 h2{display:none;}
+
+
+
+/*end header*/
+
+
+main {
+  float: right;
+  padding-top: 2%;
+  width: 100%;
+}
+
+
+.slider {
+  float: left;
+  height: 538px;
+  margin-right: 1%;
+  position: relative;
+  margin-top: 0;
+  width: 64%;
+}
+
+aside.tab1 {
+  float: right;
+  margin-right: 1.4%;
+  width: 31%;
+}
+
+.active-page .tab1 {
+  margin: 4% 0 0;
+  width: 33%;
+}
+
+.active-page .weather,.active-page .advertise{margin-right:0;}
+
+.slider .view .container1 div {
+  height: 100%;
+}
+
+.slider .container1 img {
+  height: 350px;
+}
+
+.slider .view .container2, .slider h1 {
+  font-size: 190%;
+}
+
+
+.slider .view .container1 {
+  height: auto;
+}
+
+.slider .view2 {
+  float: left;
+  margin-top: 24px;
+  position: absolute;
+  width: 980px;
+}
+
+
+
+
+/*tab1 im desktop */
+
+.tab1 .container-tab1 {
+  border: 1px solid #ededed;
+  float: right;
+  width: 100%;
+}
+
+.tab1 .tab-body ol {
+  padding-left: 10%;
+}
+
+
+.tab1 .tab-caption {
+  margin: 0;
+}
+
+.tab1 .tab-caption li {
+  font-size: 85%;
+}
+
+
+.tab1 .tab-body {
+  height: 307px;
+}
+
+
+.tab1 .tab-body ol li a {
+  text-decoration: none;
+}
+
+
+
+
+
+/*start top head lines */
+
+.tophead-content {
+  border-bottom: 2px solid #f0f0f0;
+  float: left;
+  height: 240px;
+  margin: 1% 2.5% 0 1%;
+  width: 21.5%;
+}
+
+
+.tophead-content .h2 {
+  font-size: 84%;
+  height: 90px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+
+.tophead-content-ul {
+  float: left;
+  width: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+.headline-slider {
+  float: right;
+  /*height: 276px;*/
+  margin-right: 16px;
+  margin-top: 3.7%;
+  overflow: hidden;
+  width: 33%;
+}
+
+
+.headline-slider .container2 div {
+  float: left;
+  height: 90px;
+  overflow: hidden;
+  position: relative;
+  width: 50%;
+}
+
+.headline-slider .container1 img {
+  float: right;
+  height: 186px;
+  min-width: 100%;
+  min-height: 250px;
+}
+
+.headline-slider .view {
+  height: auto;
+}
+
+/*start rin desktop*/
+
+
+.recent-news {
+  float: left;
+  text-align: left;
+  width: 63%;
+}
+
+
+
+.rncontainer {
+  float: right;
+  overflow: hidden;
+  width: 100%;
+}
+
+.recent-news .caption {
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.rni img {
+  float: left;
+  height: auto;
+  margin: 20px 30px 20px 0;
+  width: 180px;
+}
+
+
+.rni h3, .rni h4 {
+  margin: 14px 0 0;
+}
+
+
+h6.time {
+  margin: 5px 0 10px;
+}
+
+.rni-loadmore {
+  margin: 28px auto 0;
+}
+
+
+
+/*weather*/
+
+.weather {
+  border: 1px solid #ededed;
+  float: right;
+  margin-top: 2%;
+  width: 33%;
+  margin-right: 16px;
+}
+
+
+.weather .emroz {
+  height: 150px;
+  background-size: 50px auto;
+}
+
+.weather .emroz .hava {
+  background-position: 8% center;
+  background-size: 63px auto;
+  line-height: 0.4;
+}
+
+.weather .deg-hava {
+  font-size: 260%;
+}
+
+.weather .emroz .shahr {
+  font-size: 180%;
+  text-indent: 19%;
+  line-height: 5;
+}
+
+
+
+
+
+/*ads*/
+
+.advertise {
+  border: 1px solid #ededed;
+  float: right;
+  margin-right: 16px;
+  width: 33%;
+}
+
+
+
+/*categories*/
+
+
+
+.categories .caption {
+  float: left;
+  width: 98%;
+}
+
+.categories ul li {
+  float: left;
+  height: 150px;
+  margin-right: 2%;
+  margin-top: 2%;
+  overflow: hidden;
+  width: 23%;
+}
+
+.categories li img {
+  min-height: 100%;
+  width: 100%;
+}
+
+.categories ul li:nth-child(1) h4,.categories ul li:nth-child(2) h4,.categories ul li:nth-child(3) h4,.categories ul li:nth-child(4) h4 {
+  left: auto;
+  right: 0;
+}
+
+.categories ul li:nth-child(5) h4,.categories ul li:nth-child(6) h4,.categories ul li:nth-child(7) h4,.categories ul li:nth-child(8) h4 {
+  left: 0;
+  right: auto;
+}
+
+
+
+
+
+
+
+/*footer*/
+
+footer aside:first-child {
+  margin-right: 0;
+}
+
+footer aside {
+  float: left;
+  width: 33%;
+}
+
+
+.fside1 {
+  float: right;
+  width: 30%;
+}
+
+.last-media figure {
+  height: 83px;
+  width: 95px;
+}
+
+
+
+.most-comment ul li img {
+  max-height: 70px;
+}
+
+.most-comment ul li a {
+  font-size: 100%;
+  line-height: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fside1 nav a {
+  background-size: auto 57px;
+  height: 28px;
+  margin: 4px;
+  width: 28px;
+}
+
+
+#sb {  background-position: 0 bottom;}
+#sb:hover {  background-position: 0 top;}
+
+#sin {  background-position: -50px bottom;}
+#sin:hover {  background-position: -50px top; }
+
+#sg {  background-position: -100px bottom;}
+#sg:hover {  background-position: -100px top;}
+
+#st {  background-position: -150px bottom;}
+#st:hover {  background-position: -150px top;}
+
+#sp {  background-position: -200px bottom;}
+#sp:hover {  background-position: -200px top;}
+
+#stw { background-position: -250px bottom; }
+#stw:hover {background-position: -250px top;}
+
+#slin { background-position: -300px bottom; }
+#slin:hover {background-position: -300px top;}
+
+#ssk { background-position: -350px bottom; }
+#ssk:hover {background-position: -350px top;}
+
+
+
+.bottom-footer {
+  margin-top: 2%;
+  padding: 1%;
+}
+
+
+.copyright {
+  float: left;
+  letter-spacing: normal;
+  font-size: 16px;
+}
+
+
+.foot-nav-mnu {
+	display:block;
+}
+
+.foot-nav-mnu a {
+  color: #d5d5d5;
+  font-size: 14px;
+  letter-spacing: normal;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.fside1 input {
+  float: left;
+  font-size: 80%;
+  margin: auto;
+  padding: 14px 6px;
+  width: 78%;
+}
+
+
+.fside1 input[type="submit"] {
+  font-size: 100%;
+  padding: 11px;
+  width: 22%;
+}
+
+footer aside h2 {
+  font-size: 125%;
+}
+
+.last-media {
+  height: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+#ply {
+  background-size: 100px auto;
+  height: 80px;
+  left: 42%;
+  top: 26%;
+  width: 50px;
+}
+
+#thlfllft {
+  background-size: 100px auto;
+  left: 4%;
+  width: 14px;
+}
+
+#thlflrgt {
+  background-size: 100px auto;
+  right: 2%;
+  width: 15px;
+  left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*tab2 im desktop */
+
+.tab2 .container-tab1 {
+  border: 1px solid #ededed;
+  float: right;
+  width: 100%;
+}
+
+.tab2 .tab-body ol {
+  padding: 0 0 0 3%;
+  width: 100%;
+}
+
+.tab2 .tab-caption {
+  margin: 0;
+}
+
+.tab2 .tab-caption li {
+  font-size: 103%;
+}
+
+
+.tab2 .tab-body {
+  height: 313px;
+}
+
+
+.tab2 .tab-body ol li a {
+  text-decoration: none;
+}
+
+.tab2 .tab-body ol li {
+  font-size: 86%;
+  padding: 4px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article {
+  width: 65%;
+}
+
+
+
+.comment .incom {
+  width: 82%;
+}
+
+
+}
+

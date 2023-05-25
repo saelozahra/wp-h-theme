@@ -1,0 +1,140 @@
+
+
+
+@media (min-width: 1444px) {
+.container {
+    max-width: 72%;
+}
+
+
+
+
+.slider {
+  height: 775px;
+}
+
+
+.slider .view2 {
+  margin-top: 22px;
+}
+
+.slider .flash {
+  top: 30%;
+}
+
+
+.slider .container1 img {
+  height: 500px;
+}
+
+
+
+
+
+.tab-body {
+  height: 440px;
+}
+
+.tab-body ol li {
+  font-size: 100%;
+  padding: 8px 0;
+}
+
+.tab-caption li {
+  font-size: 120%;
+}
+
+
+
+
+
+
+
+
+.weather .emroz {
+  height: 135px;
+}
+
+
+.weather .emroz .shahr {
+  line-height: 5;
+}
+
+.weather .emroz .hava {
+  line-height: 0.8;
+}
+
+.weather .deg-hava {
+  line-height: 1;
+  padding-top: 20%;
+}
+
+.topheadline {
+  float:none;
+}
+
+.headline-slider .container1 img {
+  height: 300px;
+}
+
+/*.headline-slider {
+  height: 444px;
+}*/
+
+.headline-slider .container2 div {
+  height: 144px;
+}
+
+
+
+.last-media {
+  height: 387px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+footer aside h2 {
+  font-size: 130%;
+  text-align: left;
+}
+
+.last-media figure {
+  float: left;
+  height: 99px;
+  width: 110px;
+}
+
+
+
+.categories ul li {
+  height: 220px;
+}
+
+
+.slider .view .container2 img {
+  height: 222px;
+  width: 320px;
+}
+
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal{height:10px;}
+
+
+.topheadline .caption {
+  margin-right: 2%;
+  margin-top: 4%;
+  width: 98%;
+}
+
+
+
+.fside1 nav a {
+  margin: 9px;
+}
+
+
+
+}
+
+

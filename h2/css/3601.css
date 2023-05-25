@@ -1,0 +1,86 @@
+
+
+/* Larger than mobile */
+@media (min-width: 360px) {
+
+header .tr {
+  top: 1px;
+}	
+
+
+header form input {
+
+  margin-right: -100px;
+  padding: 0;
+  text-indent: 8px;
+}	
+	
+header form input[type="submit"] {
+  padding-right: 0;
+  width: 100px;
+  background-size: 60% auto;
+}
+
+
+.slider {
+  margin-top: 20px;
+}
+
+
+
+
+.tab-caption li {
+  font-size: 100%;
+}	
+
+.tophead-content {
+  height: 290px;
+  overflow: hidden;
+}
+
+	
+.last-media figure {
+  height: 90px;
+  width: 106px;
+}
+
+
+
+footer aside {
+  float: left;
+}
+
+.last-media {
+  height: 330px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+.comment .incom {
+  width: 100%;
+}
+
+
+
+
+
+
+
+.categories ul li {
+  width: 50%;
+}	
+
+
+
+
+
+
+
+
+
+}
+

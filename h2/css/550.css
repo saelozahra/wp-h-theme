@@ -1,0 +1,41 @@
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+/*	header {
+	  background-size: 100% 100%;
+	}	
+
+#boxscroll {
+  transform: translateY(5px);
+}*/
+
+
+
+
+
+.slider span.lead {
+  display: block;
+}
+
+
+.slider .view .container2,.slider h1 {
+  display: block;
+}
+
+
+.slider .flash {
+  top: 49%;
+}
+
+
+.tr {
+  display:block;
+}	
+
+
+.nav2 {
+  display:none;
+}	
+
+	
+}

@@ -1,0 +1,50 @@
+
+@media (min-width: 190px) {
+
+.container {
+  padding: 0 4px;
+}
+
+.nav1 .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+header .nav1 a {
+  margin: 3px;
+}	
+
+header .tr {
+  top: 115px;
+  width: 45px;
+}
+
+
+	
+header form input {
+  font-size: 80%;
+  margin-right: -48px;
+  padding: 0;
+  text-indent: 8px;
+  height: 45px;
+}	
+	
+header form input[type="submit"] {
+  background-size: 100% auto;
+  float: right;
+  font-size: 13px;
+  margin-right: 0;
+  padding-right: 0;
+  text-align: left;
+  width: 47px;
+}
+
+
+
+#boxscroll {
+  transform: translateY(3px);
+}
+
+
+}
+
